@@ -1,0 +1,26 @@
+/coding-contest-website
+|-- /frontend
+|   |-- index.html
+|   |-- contest.html
+|   |-- question.html
+|   |-- styles.css
+|   |-- script.js
+|-- /backend
+|   |-- server.js
+|   |-- package.json
+|   |-- /routes
+|   |   |-- contests.js
+|   |   |-- questions.js
+|   |   |-- users.js
+|   |-- /models
+|   |   |-- Contest.js
+|   |   |-- Question.js
+|   |   |-- User.js
+|   |-- /controllers
+|   |   |-- contestController.js
+|   |   |-- questionController.js
+|   |   |-- userController.js
+|   |-- /config
+|   |   |-- db.js
+|   |-- /utils
+|   |   |-- codeExecutor.js
